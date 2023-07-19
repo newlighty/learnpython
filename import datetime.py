@@ -84,3 +84,21 @@
 # print(formatted_datetime)
 
 # 2023-جولای-چهارشنبه-19
+
+# and the last one show persian date month and day full
+# from persiantools.jdatetime import JalaliDateTime add day dight
+
+# # Get the current Jalali date and time
+# jalali_datetime = JalaliDateTime.now()
+
+# # Define the Farsi month and day names
+# farsi_months = ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر', 'آبان', 'آذر', 'دی', 'بهمن', 'اسفند']
+# farsi_days = ['شنبه', 'یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنج‌شنبه', 'جمعه']
+
+# # Format the JalaliDateTime object using Farsi month and day names
+# formatted_datetime = f"{jalali_datetime.year} {farsi_months[jalali_datetime.month-1]} {farsi_days[jalali_datetime.weekday()]} {jalali_datetime.day}"
+
+# # Print the formatted datetime
+# print(formatted_datetime)
+
+# output  1402 تیر چهارشنبه 28
