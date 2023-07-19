@@ -61,3 +61,11 @@
 # print(formatted_datetime)
 
 # output  1402 تیر چهارشنبه
+
+# In the example above, we first import the `JalaliDateTime` class from the `persiantools.jdatetime` module and create a `JalaliDateTime` object for the current date and time using `JalaliDateTime.now()`.
+
+# We then define two lists, `farsi_months` and `farsi_days`, that contain the Farsi names for the months and days of the week, respectively.
+
+# Finally, we format the `JalaliDateTime` object using the Farsi month and day names and print the formatted datetime.
+
+# Note that we use the `weekday()` method of the `JalaliDateTime` object to get the day of the week as an integer (0 for Monday, 1 for Tuesday, etc.), and use that integer to index into the `farsi_days` list to get the corresponding Farsi day name.
