@@ -33,3 +33,12 @@
 
 # # Print the number of days until Mahsa's birthday
 # print("Days until Mahsa's birthday:", days_until_birthday, formatted_datetime)
+
+# from persiantools.jdatetime import JalaliDateTime
+
+# jalali_datetime = JalaliDateTime.now()
+
+# formatted_datetime = jalali_datetime.strftime("%Y-%B-%A")
+
+# print(formatted_datetime)
+# out put  1402-Tir-Chaharshanbeh
