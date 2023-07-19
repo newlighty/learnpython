@@ -69,3 +69,18 @@
 # Finally, we format the `JalaliDateTime` object using the Farsi month and day names and print the formatted datetime.
 
 # Note that we use the `weekday()` method of the `JalaliDateTime` object to get the day of the week as an integer (0 for Monday, 1 for Tuesday, etc.), and use that integer to index into the `farsi_days` list to get the corresponding Farsi day name.
+
+# this one output is english date to persian language
+
+# import datetime
+
+# # Get the current date and time
+# current = datetime.datetime.now()
+
+# # Format the datetime object using strftime() with Farsi format
+# formatted_datetime = current.strftime("%Y-%B-%A-%d").replace("January", "ژانویه").replace("February", "فوریه").replace("March", "مارس").replace("April", "آوریل").replace("May", "مه").replace("June", "ژوئن").replace("July", "جولای").replace("August", "اوت").replace("September", "سپتامبر").replace("October", "اکتبر").replace("November", "نوامبر").replace("December", "دسامبر").replace("Saturday", "شنبه").replace("Sunday", "یکشنبه").replace("Monday", "دوشنبه").replace("Tuesday", "سه‌شنبه").replace("Wednesday", "چهارشنبه").replace("Thursday", "پنج‌شنبه").replace("Friday", "جمعه")
+
+# # Print the formatted datetime
+# print(formatted_datetime)
+
+# 2023-جولای-چهارشنبه-19
