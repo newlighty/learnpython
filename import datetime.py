@@ -102,3 +102,33 @@
 # print(formatted_datetime)
 
 # output  1402 تیر چهارشنبه 28
+
+
+# If you want to use alternate parameters for the Farsi month and day names, you can define your own lists of names and use them in the formatting. Here's an example:
+
+# ```python
+# from persiantools.jdatetime import JalaliDateTime
+
+# # Get the current Jalali date and time
+# jalali_datetime = JalaliDateTime.now()
+
+# # Define alternate Farsi month and day names
+# alternate_farsi_months = ['ماه ۱', 'ماه ۲', 'ماه ۳', 'ماه ۴', 'ماه ۵', 'ماه ۶', 'ماه ۷', 'ماه ۸', 'ماه ۹', 'ماه ۱۰', 'ماه ۱۱', 'ماه ۱۲']
+# alternate_farsi_days = ['روز ۱', 'روز ۲', 'روز ۳', 'روز ۴', 'روز ۵', 'روز ۶', 'روز ۷']
+
+# # Format the JalaliDateTime object using alternate Farsi month and day names
+# formatted_datetime = f"{jalali_datetime.year} {alternate_farsi_months[jalali_datetime.month-1]} {alternate_farsi_days[jalali_datetime.weekday()]} {jalali_datetime.day}"
+
+# # Print the formatted datetime
+# print(formatted_datetime)
+# ```
+
+# In this example, we define `alternate_farsi_months` and `alternate_farsi_days` lists with your desired alternate Farsi month and day names.
+
+# Then, we format the `JalaliDateTime` object using these alternate names by indexing into the lists based on the month and day values of the `JalaliDateTime` object.
+
+# Finally, we print the formatted datetime.
+
+# Feel free to customize the `alternate_farsi_months` and `alternate_farsi_days` lists with your preferred names.
+
+# output 1402 ماه ۴ روز ۶ 29
