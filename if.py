@@ -33,8 +33,16 @@
 
 # replaced upper with capitalize
 
-# pythonLover = input("what is you favorit programing language ?")
+# pythonLover = input("what is you favorite programming language ?")
 
 # if pythonLover.capitalize() == "Python" :
 #     print("yes that's it")
 #     print("love django by the way")
+
+# ues number
+# valet = int(input("enter the value"))
+
+# if valet > 100 :
+#     print(" your are good customer ")
+
+# hear you must convert variable from string to int so we use int or we get error
