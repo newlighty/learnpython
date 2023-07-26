@@ -86,3 +86,35 @@
 
 # else :
 #     print("you money is not enough!")
+
+
+# hear is challenge  if you want to calculate shipping for user
+
+# shipping = False
+
+# total = int(input("Enter total purchase: "))
+
+# if total < 50:
+#     total += 10
+#     shipping = True
+
+# print("Total: $" + str(total))
+# if shipping:
+#     print("Shipping: $10")
+# else:
+#     print("Shipping: Free")
+# ```
+
+# Here's how this code works:
+
+# 1. We start by setting the `shipping` variable to `False`.
+
+# 2. We prompt the user to enter the total purchase amount using the `input()` function and convert the input to an integer using the `int()` function.
+
+# 3. We check if the total purchase amount is less than 50. If it is, we add 10 to the total and set the `shipping` variable to `True`.
+
+# 4. We print the total purchase amount using the `print()` function and the `str()` function to convert the integer to a string.
+
+# 5. We check the value of the `shipping` variable and print either "Shipping: $10" or "Shipping: Free" using the `print()` function.
+
+# With these changes, the code should correctly calculate the total purchase amount and shipping cost based on the input and output the results to the user.
