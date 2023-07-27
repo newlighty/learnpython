@@ -118,3 +118,22 @@
 # 5. We check the value of the `shipping` variable and print either "Shipping: $10" or "Shipping: Free" using the `print()` function.
 
 # With these changes, the code should correctly calculate the total purchase amount and shipping cost based on the input and output the results to the user.
+
+# elif
+
+# city = input("Enter your city :")
+
+# if city == 'shiraz':
+
+#     print('yes you in the flower city')
+
+# elif city == 'london':
+
+#     print('you love sun ?')
+
+# elif city == 'newyork' :
+
+#     print('city never sleep')
+
+# else  :
+#     print('i am sure it\'s the best place in the world')
