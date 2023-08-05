@@ -137,3 +137,54 @@
 
 # else  :
 #     print('i am sure it\'s the best place in the world')
+
+
+# and
+
+# city = input("Enter your city :")
+
+# street = input("Enter your street")
+
+# if city == 'shiraz' and street == 'pezashkan' :
+#     print("you are our neighbor ")
+
+# else :
+#     print("have nice day")
+
+# or
+
+# Use strip() method: You can use the strip() method to remove any leading or trailing spaces from the input. This can help ensure that the input is formatted correctly. Here's an example:
+
+# python
+# city = input("Enter your city: ").strip()
+# street = input("Enter your street: ").strip()
+
+# city = input("Enter your city: ").strip()
+# street = input("Enter your street: ").strip()
+
+# if city.lower() == 'shiraz'  and\
+#     street.lower() == 'pezashkan' or street.lower() == 'dostan' :
+
+#   print("You are our neighbor")
+# else:
+#     print("Sorry, we don't recognize your city and street.")
+
+# out
+# You are our neighbor
+
+# hear we put prentices to divide code into two part and each evacuated separated  so if somebody type wrong street it gives the else message
+
+# better code
+
+# Use descriptive variable names: Instead of using generic variable names like city and street, consider using more descriptive names that convey the purpose of the variables. For example, you could use user_city and user_street.
+
+# Prompt the user to enter their city and street
+# Prompt the user to enter their city and street
+# user_city = input("Enter your city: ").strip()
+# user_street = input("Enter your street: ").strip()
+
+# # Check if the user is our neighbor based on their city and street
+# if user_city.lower() == 'shiraz' and (user_street.lower() == 'pezashkan' or user_street.lower() == 'dostan'):
+#     print("You are our neighbor")
+# else:
+#     print("Sorry, we don't recognize your city and street.")
