@@ -293,18 +293,50 @@
 # [16] https://gstcalculator.ca
 
 
-city = input("Enter your city: ").strip()
-street = input("Enter your street: ").strip()
+# city = input("Enter your city: ").strip()
+# street = input("Enter your street: ").strip()
 
-city = False
-if city == 'shiraz':
-    city = True
+# city = False
+# if city == 'shiraz':
+#     city = True
 
-street = False
-if street == 'pezashkan' or street == 'dostan':
-    street = True
-if city and street:
-    print("You are our neighbor")
-print("do you like coffee")
+# street = False
+# if street == 'pezashkan' or street == 'dostan':
+#     street = True
+# if city and street:
+#     print("You are our neighbor")
+# print("do you like coffee")
 
 # enf of if =================
+
+# use turtle library to draw shapes
+# import turtle
+# turtle.forward(150)
+
+# import turtle
+# turtle.color('green')
+# turtle.forward(100)
+# turtle.right(45)
+# turtle.color('blue')
+# turtle.forward(50)
+# turtle.right(45)
+# turtle.color('pink')
+# turtle.forward(100)
+
+#  for (loop) we can you this command to repeat a command in number of time we need
+
+#  hear we made square with repeat the command for times for is keyword take is variable  in is part of syntax and range is number of time need to repeat and stop
+
+# import turtle
+# for take in range(4):
+#     turtle.forward(100)
+#     turtle.right(90)
+#     turtle.color('green')
+
+
+# import turtle
+# for take in range(4):
+#     turtle.forward(100)
+#     turtle.right(90)
+#     turtle.color('green')
+#     turtle.forward(200)
