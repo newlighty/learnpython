@@ -188,3 +188,123 @@
 #     print("You are our neighbor")
 # else:
 #     print("Sorry, we don't recognize your city and street.")
+
+# To make the code cleaner, you can simplify the logic and remove unnecessary variable assignments. Here's the modified code:
+
+# ```python
+# # Prompt the user to enter their city and street
+# city = input("Enter your city: ").strip()
+# street = input("Enter your street: ").strip()
+
+# # Check if the user is our neighbor based on their city and street
+# if city.lower() == 'shiraz' and (street.lower() == 'pezashkan' or street.lower() == 'dostan'):
+#     print("You are our neighbor")
+# else:
+#     print("Sorry, we don't recognize your city and street.")
+# ```
+
+# In this code, the changes made include:
+
+# - Removed unnecessary variable assignments (`city = False` and `street = False`).
+# - Simplified the `if` condition by directly checking if the city is "shiraz" and the street is either "pezashkan" or "dostan".
+# - Used the `lower()` method to convert the input to lowercase before comparison, ensuring case-insensitive matching.
+# - Adjusted the indentation for better readability.
+
+# These modifications make the code cleaner and more concise while maintaining its functionality.
+
+# Citations:
+# [1] http://computing.outwood.com/NEA/python/programming.html
+# [2] https://towardsdatascience.com/transform-messy-address-into-clean-data-effortlessly-using-geopy-and-python-d3f726461225
+# [3] https://www.programiz.com/python-programming/if-elif-else
+# [4] https://www.idtech.com/blog/what-does-elif-mean-in-python
+# [5] https://www.reddit.com/r/koreatravel/comments/up99b7/qcode_cannot_input_addres/
+# [6] https://www.simplilearn.com/tutorials/python-tutorial/python-if-else-statement
+
+
+# chalenge
+
+# To calculate the total charge for an order from an online store in Canada, you can follow these steps:
+
+# 1. Prompt the user to enter their country and order total:
+#    ```python
+#    country = input("Enter your country: ")
+#    order_total = float(input("Enter your order total: "))
+#    ```
+
+# 2. Check if the user is from Canada:
+#    ```python
+#    if country.lower() == 'canada':
+#        province = input("Enter your province: ")
+#        # Calculate tax based on the province
+#        # Use the appropriate tax rate for the province
+#        # You can refer to the official government sources or tax calculators to get the tax rates for each province
+#        # Apply the tax rate to the order total to calculate the tax amount
+#        # Add the tax amount to the order total to get the total charge
+#        # Print the total charge
+#    else:
+#        # If the user is not from Canada, do not charge any taxes
+#        # The total charge will be the same as the order total
+#        # Print the total charge
+#    ```
+
+# 3. Calculate tax based on the province (if applicable):
+#    - You can refer to official government sources or tax calculators to get the tax rates for each province in Canada. For example, you can use the GST/HST calculator provided by the Canada Revenue Agency[2].
+#    - Apply the tax rate to the order total to calculate the tax amount.
+#    - Add the tax amount to the order total to get the total charge.
+
+# Here's an example of how the code could be structured:
+
+# ```python
+# # Prompt the user to enter their country and order total
+# country = input("Enter your country: ")
+# order_total = float(input("Enter your order total: "))
+
+# # Check if the user is from Canada
+# if country.lower() == 'canada':
+#     province = input("Enter your province: ")
+#     # Calculate tax based on the province
+#     # Apply the appropriate tax rate to the order total
+#     # Add the tax amount to the order total to get the total charge
+#     # Print the total charge
+# else:
+#     # If the user is not from Canada, do not charge any taxes
+#     # The total charge will be the same as the order total
+#     # Print the total charge
+# ```
+
+# Please note that the code provided is a template and you will need to fill in the specific tax rates and calculations based on the province. You can refer to official government sources or tax calculators to get the accurate tax rates for each province in Canada.
+
+# Citations:
+# [1] https://www.retailcouncil.org/resources/quick-facts/sales-tax-rates-by-province/
+# [2] https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html
+# [3] https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html
+# [4] https://www.canada.ca/en/revenue-agency/services/child-family-benefits/goods-services-tax-harmonized-sales-tax-gst-hst-credit/gst-hst-credit-calculation-sheets.html
+# [5] https://en.wikipedia.org/wiki/Sales_taxes_in_Canada
+# [6] https://wowa.ca/calculators/gst-hst-calculator
+# [7] https://www.avalara.com/vatlive/en/country-guides/north-america/canada/canadian-vat-compliance-and-rates.html
+# [8] https://www.calculconversion.com/sales-tax-calculator-hst-gst.html
+# [9] https://help.shopify.com/en/manual/taxes/canada/canada-tax-reference
+# [10] https://hardbacon.ca/en/calculator/canadian-sales-tax-gst-pst/
+# [11] https://www.taxtips.ca/salestaxes/sales-tax-rates-2022.htm
+# [12] https://www.remitbee.com/gst-hst-calculator
+# [13] https://empirecpa.ca/canadian-sales-tax-rates-for-2022/
+# [14] https://captaincalculator.com/financial/tax/gst-canada/
+# [15] https://taxsummaries.pwc.com/canada/corporate/other-taxes
+# [16] https://gstcalculator.ca
+
+
+city = input("Enter your city: ").strip()
+street = input("Enter your street: ").strip()
+
+city = False
+if city == 'shiraz':
+    city = True
+
+street = False
+if street == 'pezashkan' or street == 'dostan':
+    street = True
+if city and street:
+    print("You are our neighbor")
+print("do you like coffee")
+
+# enf of if =================
