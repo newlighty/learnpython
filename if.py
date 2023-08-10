@@ -340,3 +340,41 @@
 #     turtle.right(90)
 #     turtle.color('green')
 #     turtle.forward(200)
+
+# import turtle
+# for take in range(4):
+#     turtle.backward(100)
+#     turtle.right(90)
+#     turtle.color('red')
+#     turtle.width(5)
+
+#  change the whole thing to red
+
+# import turtle
+# for take in range(4):
+#     turtle.width(5)
+#     turtle.backward(100)
+#     turtle.right(90)
+#     turtle.color('red')
+
+
+# import tkinter as tk
+
+# # Create a window and a canvas
+# root = tk.Tk()
+# canvas = tk.Canvas(root, width=400, height=400)
+# canvas.pack()
+
+# # Define the coordinates of the polygon
+# coords = [100, 100, 300, 100, 300, 300, 100, 300]
+
+# # Divide the polygon into two sub-polygons
+# sub_coords1 = [coords[0], coords[1], coords[2], coords[3], coords[4], coords[5], coords[6], coords[1]]
+# sub_coords2 = [coords[6], coords[1], coords[0], coords[7], coords[2], coords[3], coords[4], coords[5]]
+
+# # Fill each sub-polygon with a different color
+# canvas.create_polygon(sub_coords1, outline='black', fill='red')
+# canvas.create_polygon(sub_coords2, outline='black', fill='green')
+
+# # Start the main loop
+# root.mainloop()
