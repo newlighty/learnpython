@@ -450,3 +450,87 @@
 # [6] https://youtube.com/watch?v=Y_t038MLvGo
 # [7] https://youtube.com/watch?v=kX4VweLMglc
 # [8] https://youtube.com/watch?v=wP7dP-hY7Vk
+
+# and her we draw enfants
+
+# To change the shape to an elephant in `turtle`, you can use the `turtle.register_shape()` method to register a new shape for the turtle. Here's an example code snippet that demonstrates how to change the shape to an elephant:
+
+# ```python
+# import turtle
+
+# # Register the elephant shape
+# turtle.register_shape("elephant", ((50,-50),(50,-25),(25,-25),(25,0),(50,0),(50,25),(0,25),(0,50),(-50,50),(-50,25),(-25,25),(-25,0),(-50,0),(-50,-25),(0,-25),(0,-50)))
+
+# # Set the turtle shape to elephant
+# turtle.shape("elephant")
+
+# # Move the turtle forward
+# turtle.forward(100)
+
+# turtle.done()
+# ```
+
+# In this code, I used the `turtle.register_shape()` method to register a new shape for the turtle. The `register_shape()` method takes two arguments: the name of the new shape and a tuple of coordinates that define the shape. In this example, I defined the coordinates of an elephant shape and registered it with the name "elephant".
+
+# After registering the new shape, I used the `turtle.shape()` method to set the turtle shape to "elephant". Finally, I moved the turtle forward to demonstrate the new shape.
+
+# Remember to include `turtle.done()` at the end of your code to keep the turtle graphics window open.
+
+# Citations:
+# [1] https://stackoverflow.com/questions/50052835/python-turtle-shapes
+# [2] https://www.geeksforgeeks.org/turtle-color-method-in-python/
+# [3] https://docs.python.org/3/library/turtle.html
+# [4] https://python-forum.io/thread-14362.html
+# [5] https://vegibit.com/change-pen-color-in-python-turtle/
+# [6] https://www.geeksforgeeks.org/python-turtle-pencolor-method/
+
+
+# add gradient to the shape
+
+# import turtle
+
+# Register the elephant shape
+# turtle.register_shape("elephant", ((50,-50),(50,-25),(25,-25),(25,0),(50,0),(50,25),(0,25),(0,50),(-50,50),(-50,25),(-25,25),(-25,0),(-50,0),(-50,-25),(0,-25),(0,-50)))
+
+# # Set the turtle shape to elephant
+# turtle.shape("elephant")
+
+# # Set the gradient colors
+# colors = ["red", "orange", "yellow", "green", "blue", "purple"]
+# for i in range(len(colors)):
+#     turtle.color(colors[i], colors[i-1])
+#     turtle.begin_fill()
+#     turtle.forward(100)
+#     turtle.right(60)
+#     turtle.forward(100)
+#     turtle.right(60)
+#     turtle.forward(100)
+#     turtle.right(60)
+#     turtle.forward(100)
+#     turtle.right(60)
+#     turtle.forward(100)
+#     turtle.right(60)
+#     turtle.forward(100)
+#     turtle.right(60)
+#     turtle.end_fill()
+
+# turtle.done()
+
+
+# import turtle
+
+# # Register the shape
+# turtle.register_shape("my_shape", ((-50, -50), (50, -50), (50, 50), (-50, 50)))
+
+# # Set the turtle shape to the registered shape
+# turtle.shape("my_shape")
+
+# # Set the gradient colors
+# colors = ["red", "orange", "yellow", "green", "blue", "purple"]
+# for i in range(len(colors)):
+#     turtle.color(colors[i], colors[i-1])
+#     turtle.begin_fill()
+#     turtle.circle(50)
+#     turtle.end_fill()
+
+# turtle.done()
