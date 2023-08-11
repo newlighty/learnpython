@@ -378,3 +378,75 @@
 
 # # Start the main loop
 # root.mainloop()
+
+# nested for more complex shape
+
+# this create one pentagon
+
+# #import turtle
+# for take in range(5):
+#     turtle.forward(100)
+#     turtle.right(360/5)
+
+# this draws one pentagon and five inside of it!
+
+# import turtle
+# for take in range(5):
+#     turtle.forward(100)
+#     turtle.right(360/5)
+#     for take1 in range(5):
+#         turtle.forward(50)
+#         turtle.right(360/5)
+
+# another exp :
+# import turtle
+# for take in range(4):
+#     turtle.forward(10)
+#     turtle.right(90)
+#     for take1 in range(4):
+#         turtle.forward(50)
+#         turtle.right(90)
+#         turtle.color('green')
+
+
+# To change the stroke color of the sub-polygons in the given code, you can use the `turtle.pencolor()` method in `turtle`. Here's how you can modify your code to change the stroke color of the sub-polygons:
+
+# ```python
+# import turtle
+
+# takes = 6
+
+# for take in range(takes):
+#     turtle.forward(100)
+#     turtle.right(360/takes)
+
+#     for take1 in range(takes):
+#         turtle.forward(50)
+#         turtle.right(360/takes)
+#         turtle.color('blue', 'green')  # Set the stroke color to blue and the fill color to green
+#         turtle.begin_fill()   # Begin filling the shape
+#         turtle.fillcolor('green')  # Set the fill color to green
+#         turtle.end_fill()     # End filling the shape
+#         turtle.pencolor('red')  # Set the stroke color to red
+
+# turtle.done()
+# ```
+
+# In this modified code, I added the following lines:
+
+# - `turtle.color('blue', 'green')`: This line sets the stroke color to blue and the fill color to green.
+# - `turtle.pencolor('red')`: This line sets the stroke color to red after filling the sub-polygon.
+
+# By using these lines, the sub-polygons will be filled with green color and the stroke color will be changed to red after filling each sub-polygon. You can modify the color names or use RGB values to specify different colors as needed.
+
+# Remember to include `turtle.done()` at the end of your code to keep the turtle graphics window open.
+
+# Citations:
+# [1] https://www.geeksforgeeks.org/python-turtle-pencolor-method/
+# [2] https://stackoverflow.com/questions/65968825/changing-only-fill-or-line-color-in-python-turtle
+# [3] https://docs.python.org/3/library/turtle.html
+# [4] https://vegibit.com/change-pen-color-in-python-turtle/
+# [5] https://youtube.com/watch?v=1veDZJLsFCc
+# [6] https://youtube.com/watch?v=Y_t038MLvGo
+# [7] https://youtube.com/watch?v=kX4VweLMglc
+# [8] https://youtube.com/watch?v=wP7dP-hY7Vk
