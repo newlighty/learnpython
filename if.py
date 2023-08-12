@@ -586,3 +586,24 @@
 #         turtle.right(360/takes)
 
 # turtle.done()
+
+#  your going to love this one
+# import turtle
+# for steps in range(100):
+#     for c in ('blue', 'red', 'green'):
+#         turtle.color(c)
+#         turtle.forward(steps)
+#         turtle.right(30)
+
+
+# turtle.done()
+
+# #import turtle
+# for steps in range(100):
+#     for c in ('blue', 'red', 'green', 'purple'):
+#         turtle.color(c)
+#         turtle.forward(steps)
+#         turtle.right(30)
+
+
+# turtle.done()
