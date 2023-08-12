@@ -534,3 +534,55 @@
 #     turtle.end_fill()
 
 # turtle.done()
+
+# ----------------
+# we can specify that loop start from 1 not 0 and give it stop number 10 and scape number 2 means it add two to the one
+# 1 + 2 = 3 3+2 = 5 and this is output :
+
+# 1
+# 3
+# 5
+# 7
+# 9
+
+# for count in range(1,10,2):
+# print(count)
+
+# and this way you can specify what you want :
+# for count in [1,2,3,4,5]:
+#     print(count)
+
+# and hear not use for just with numbers
+
+# import turtle
+# for steps in ['red', 'blue', 'green', 'yellow']:
+#     turtle.color(steps)
+#     turtle.forward(100)
+#     turtle.right(90)
+
+# challenge drave octagon with octagons in it
+
+# import turtle
+# takes  = 8
+# for take in range(takes):
+#     turtle.forward(100)
+#     turtle.right(360/takes)
+#     for take1 in range(takes):
+#         turtle.forward(50)
+#         turtle.right(360/takes)
+
+# turtle.done()
+
+# and this one ask user to tell the number of sides :
+
+# import turtle
+# takes = int(input("enter your side !"))
+
+# for take in range(takes):
+#     turtle.forward(100)
+#     turtle.right(360/takes)
+#     for take1 in range(takes):
+#         turtle.forward(50)
+#         turtle.right(360/takes)
+
+# turtle.done()
