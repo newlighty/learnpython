@@ -607,3 +607,152 @@
 
 
 # turtle.done()
+
+# Exercise 1: Calculate the multiplication
+# Given two integer numbers return their product only if the product is equal to or lower than 1000, else return their sum.
+
+# number1 = 20
+# number2 = 30
+# Expected Output:
+
+# The result is 600
+# number1 = 20
+# number2 = 30
+# number1 = int(input('enter your number'))
+# number2 = int(input('enter your number'))
+# total = number1 * number2
+# print(total)
+# if total < 1000 :
+#     print('you can return goods')
+# else:
+#     print(total)
+
+
+# number1 = 40
+# number2 = 30
+
+# The result is 70
+
+# number1 = 20
+# number2 = 30
+# number1 = int(input('enter your number'))
+# number2 = int(input('enter your number'))
+# total = number1 + number2
+# print(total)
+# if total < 1000 :
+#     print('you can return goods')
+# else:
+#     print(total)
+
+# while loop used when you want so action repeat but you dont know fo how many  like enter your password of print user name or ..etc
+
+# answer = '0'
+
+# while answer !='frank':
+#     answer = input('frank')
+# print('welcome to your dashboard')
+
+# import turtle
+# counter = 0
+# while counter < 4 :
+#     turtle.forward(100)
+#     turtle.right(90)
+#     counter = counter+1
+# turtle.done()
+#
+#  look at this code and tell what is add
+
+# import turtle
+# counter = 0
+# while counter < 20 :
+#     turtle.forward(100)
+#     turtle.right(90)
+#     counter = counter+1
+#     print(counter)
+# turtle.done()
+
+# help !
+
+# output
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+# 11
+# 12
+# 13
+# 14
+# 15
+# 16
+# 17
+# 18
+# 19
+# 20
+# =========================>
+
+# In the given code, the counter starts from 0, but when it is printed, it starts from 1. This is because the `print(counter)` statement is placed after the line `counter = counter + 1`.
+
+# Here's a breakdown of the code execution:
+
+# 1. The `counter` variable is initialized to 0.
+# 2. The while loop is executed as long as the `counter` is less than 20.
+# 3. Inside the loop, the turtle moves forward by 100 units and then turns right by 90 degrees.
+# 4. The `counter` is incremented by 1 using the statement `counter = counter + 1`.
+# 5. After the increment, the value of `counter` is printed using `print(counter)`.
+# 6. The loop continues until the `counter` reaches 20.
+# 7. Finally, the `turtle.done()` function is called to finish the turtle graphics.
+
+# Since the `counter` is incremented before printing, the first value printed is 1. If you want the counter to start from 0 when printing, you can move the `print(counter)` statement before the line `counter = counter + 1`. Here's the modified code:
+
+# ```python
+# import turtle
+
+# counter = 0
+# while counter < 20:
+#     turtle.forward(100)
+#     turtle.right(90)
+#     print(counter)
+#     counter = counter + 1
+
+# turtle.done()
+# ```
+
+# Now, when you run the code, the counter will start from 0 when printed.
+
+
+# output
+
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+# 11
+# 12
+# 13
+# 14
+# 15
+# 16
+# 17
+# 18
+# 19
+
+# Citations:
+# [1] https://www.pythonclassroom.com/turtle-graphics/turtle-graphics-with-loops
+# [2] https://realpython.com/beginners-guide-python-turtle/
+# [3] https://quizlet.com/427915829/tracy-the-turtle-unit-1-computer-science-flash-cards/
+# [4] https://artofproblemsolving.com/assets/pythonbook/hello_little_turtles.html
+# [5] http://opensask.ca/Python/Overview/MultipleTurtlesAndForLoops.html
+# [6] https://www.cs.cornell.edu/courses/cs1110/2015fa/assignments/assignment4/index.php
