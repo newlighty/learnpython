@@ -756,3 +756,23 @@
 # [4] https://artofproblemsolving.com/assets/pythonbook/hello_little_turtles.html
 # [5] http://opensask.ca/Python/Overview/MultipleTurtlesAndForLoops.html
 # [6] https://www.cs.cornell.edu/courses/cs1110/2015fa/assignments/assignment4/index.php
+
+# how to make for loop for ever
+# import turtle
+
+# counter = 0
+# while True:
+#     turtle.forward(100)
+#     turtle.right(90)
+#     print(counter)
+#     counter = counter + 1
+
+# turtle.done()
+
+# hear is another way around it
+
+# import turtle
+# counter = 0
+# while counter < 3 :
+#     turtle.forward(100)
+#     turtle.right(90)
