@@ -776,3 +776,9 @@
 # while counter < 3 :
 #     turtle.forward(100)
 #     turtle.right(90)
+
+
+# ========================= list==================
+
+# guests = ['frank','rose', 'jack','lucy']
+# print(guests[-2])
