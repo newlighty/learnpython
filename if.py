@@ -782,3 +782,63 @@
 
 # guests = ['frank','rose', 'jack','lucy']
 # print(guests[-2])
+
+# you can change the value of the list :
+
+# guests = ['frank','rose', 'jack','lucy']
+# guests[3] = 'nanny'
+# print(guests[3])
+
+# another way to do this is using append() and new value added to the end of te list no need for tell where to put it
+
+# guests = ['frank','rose', 'jack','lucy']
+# guests.append('faramarz')
+# print(guests[4])
+
+# how to print all the the list value ?
+#  oyu can use for loop for this
+
+# guests = ['frank','rose', 'jack','lucy']
+# for guest in guests:
+#     print(guest)
+
+# guests = ['frank','rose', 'jack','lucy']
+# for guest in guests:
+#     print(guest)
+
+# an in case you do'nt know how many gust is going to add you van use while loop
+
+# guests = ['frank', 'rose', 'jack', 'lucy']
+# index = 0
+# while index < len(guests):
+#     print(guests[index])
+#     index += 1
+# remove()
+
+# guests = ['frank', 'rose', 'jack', 'lucy']
+# guests.remove('frank')
+# print(guests)
+
+# another way of doing this :
+# guests = ['frank', 'rose', 'jack', 'lucy']
+# del guests[0]
+# print(guests)
+
+# how to search list
+# guests = ['frank', 'rose', 'jack', 'lucy']
+# print(guests.index('rose'))
+#  first know the length of list and than print it
+# guests = ['frank', 'rose', 'jack', 'lucy']
+# for guest in range(len(guests)):
+#   print(guests[guest])
+#  and this is how to sort things :
+
+# guests = ['frank', 'rose', 'jack', 'lucy']
+# guests.sort()
+# for guest in guests:
+#   print([guest])
+
+# guests = ['frank', 'rose', 'jack', 'lucy']
+# guests.sort()
+# for guest in guests:
+#   print(guest)
