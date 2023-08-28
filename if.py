@@ -890,3 +890,27 @@
 
 # file = open(fileName, mode=WRITE)
 #  it write the file but when you run this again it override it  if you want it you must append it
+
+# always use close when open it
+
+# fileName = 'myFile.txt'
+# accessMode = 'w'
+# myfile = open(fileName, accessMode)
+# myfile.write('how is ..\n')
+# myfile.write('what the ..')
+# myfile.close()
+
+# w+ means read and write
+
+# and that is how you make cvs :
+
+# fileName = 'myFile.csv'
+# WRITE = 'w'
+# APPEND = 'a'
+# myfile = open(fileName, mode= WRITE)
+# myfile.write('fara, 32\n')
+# myfile.write('masy 31')
+# myfile.close()
+# print('file done')
+
+# and this is how you get input from user
