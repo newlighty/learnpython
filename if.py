@@ -842,3 +842,51 @@
 # guests.sort()
 # for guest in guests:
 #   print(guest)
+
+# sort list alphabetically
+
+# guest_list = ["serena", "frank", "coillns", "ali"]
+# guest_list.sort()
+# print(guest_list)
+
+# output ['ali', 'coillns', 'frank', 'serena']
+
+
+# def get_guest_list():
+#   """
+#   Gets a list of guests from the user.
+
+#   Returns:
+#     A list of guests.
+#   """
+#   guest_list = []
+#   while True:
+#     guests = input("Enter the name of the guests (or 'done' to exit): ")
+#     if guests == 'done':
+#       break
+#     guest_list.append(guests)
+#   return guest_list
+
+
+# def main():
+#   """
+#   Gets a list of guests from the user and prints it out sorted.
+#   """
+#   guest_list = get_guest_list()
+#   guest_list.sort()
+#   print("The sorted list of guests is:")
+#   print(guest_list)
+
+
+# if __name__ == "__main__":
+#   main()
+
+# save information in file ============>
+
+# this is for WRITE
+
+# fileName = 'myFile.txt'
+# WRITE = 'w'
+
+# file = open(fileName, mode=WRITE)
+#  it write the file but when you run this again it override it  if you want it you must append it
