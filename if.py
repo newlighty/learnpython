@@ -926,3 +926,59 @@
 # myText = open('test.txt', 'r')
 # onLineRead = myText.readline()
 # print(onLineRead)
+
+# how to read cvs file personally prefer  panda for efficiency and simplicity
+
+# To read a CSV file in Python, there are several ways to do it. Here are some common methods:
+
+# 1. Using the csv library: The csv library is a built-in module in Python that provides classes for reading and writing tabular data in CSV file format. Here's an example of how to read a CSV file using the csv library:
+
+# ```python
+# import csv
+
+# with open('example.csv', newline='') as file:
+#     csvreader = csv.reader(file)
+#     for row in csvreader:
+#         print(row)
+# ```
+
+# In this example, we first import the csv library. We then use the `open()` function to open the CSV file in read mode and assign it to a file object called `file`. We use the `csv.reader()` method to create a reader object that can iterate over the rows in the CSV file. We then use a `for` loop to iterate over the rows in the CSV file and print each row.
+
+# 2. Using the pandas library: The pandas library is a popular open-source Python library that provides high-performance, convenient data structures and data analysis tools and techniques for Python programming. Here's an example of how to read a CSV file using the pandas library:
+
+# ```python
+# import pandas as pd
+
+# df = pd.read_csv('example.csv')
+# print(df)
+# ```
+
+# In this example, we first import the pandas library and assign it to an alias `pd`. We then use the `read_csv()` function to read the CSV file and assign the resulting DataFrame to a variable called `df`. Finally, we print the DataFrame using the `print()` function.
+
+# Both methods will read the CSV file and allow you to manipulate the data in Python.
+
+# Citations:
+# [1] https://earthly.dev/blog/csv-python/
+# [2] https://www.geeksforgeeks.org/reading-csv-files-in-python/
+# [3] https://realpython.com/python-csv/
+# [4] https://docs.python.org/3/library/csv.html
+# [5] https://www.w3schools.com/python/pandas/pandas_csv.asp
+# [6] https://www.geeksforgeeks.org/python-program-split-join-string/
+
+# method one using cvs import modern way :
+
+# import csv
+
+# with open('myFile.csv', newline='') as file:
+#     csvreader = csv.reader(file)
+#     for row in csvreader:
+#         print(row)    hear we use newline= '' instead of r
+
+# and the same code with r
+
+# import csv
+
+# with open('myFile.csv', 'r') as file:
+#     csvreader = csv.reader(file)
+#     for row in csvreader:
+#         print(row)
