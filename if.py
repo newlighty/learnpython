@@ -914,3 +914,15 @@
 # print('file done')
 
 # and this is how you get input from user
+
+#  and hear is how to read from file but you must first make file type content yourself
+
+# myText = open('test.txt', 'r')
+# allTxt = myText.read()
+# print(allTxt)
+
+#  and is you want to read only first line or one line ues this
+
+# myText = open('test.txt', 'r')
+# onLineRead = myText.readline()
+# print(onLineRead)
