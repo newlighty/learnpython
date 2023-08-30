@@ -982,3 +982,80 @@
 #     csvreader = csv.reader(file)
 #     for row in csvreader:
 #         print(row)
+
+# and this way you can use enumerate() to print only name from csv file
+
+# import csv
+
+# with open('myFile.csv', newline='') as file:
+#     csvreader = csv.reader(file)
+#     for i, row in enumerate(csvreader):
+#         print(row)
+#         if i > 0: # skip the header row
+#             name = row[0]
+#             print(name)
+
+# output
+
+# ['fara', '32', 'happy']
+# ['masy', '31', 'funny']
+# masy
+# ['matahari ', '40', '']
+# matahari
+# ['materi', '_pelatihan ', '', ' funny']
+# materi
+# ['medis', '10', '']
+# medis
+
+# this print every value in septette line
+
+# import csv
+
+# with open('myFile.csv', newline='') as file:
+#     csvreader = csv.reader(file)
+#     for row in csvreader:
+#         for value in row :
+#             print(value + "\n")
+
+# output
+# fara
+
+# 32
+
+# happy
+
+# masy
+
+# 31
+
+# funny
+
+# matahari
+
+# 40 ... etc
+
+# and this is how you can get ride of  [] on the output and you can use / , :
+
+# import csv
+
+# with open('myFile.csv', newline='') as file:
+#     csvreader = csv.reader(file)
+#     for i, row in enumerate(csvreader):
+#         print('/ '.join(row))
+#         if i > 0: # skip the header row
+#             name = row[0]
+#             print(name)
+
+# out
+
+# fara/ 32/ happy
+# masy/ 31/ funny
+# masy
+# matahari / 40/
+# matahari
+# materi/ _pelatihan / /  funny
+# materi
+# medis/ 10/
+# medis
+# membuka/ 1/
+# membuka
