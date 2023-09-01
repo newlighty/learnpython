@@ -1059,3 +1059,22 @@
 # medis
 # membuka/ 1/
 # membuka
+
+
+# import csv
+
+# with open('guest.csv', newline='') as file:
+#     csvreader = csv.reader(file)
+#     for row in csvreader:
+#         print(', '.join(row))
+
+
+# import csv
+
+# with open('guest.csv', newline='') as file:
+#     csvreader = csv.reader(file)
+#     for row in csvreader:
+#         print(', '.join(row) )
+
+#         for name in row:
+#             print(name)
